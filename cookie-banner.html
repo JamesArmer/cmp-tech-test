@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cookie Banner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cookie-banner">
+      <p>
+        This website uses cookies to ensure you get the best experience on our
+        website.
+      </p>
+      <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <script>
+      function acceptCookies() {
+        // Add your logic here to handle cookie acceptance
+        // For example, you can set a cookie or dismiss the banner
+        // You can also use a library like js-cookie for cookie management
+        // Here's an example of setting a cookie for 30 days:
+        // document.cookie = "cookieAccepted=true; expires=" + new Date(new Date().getTime() + 30 * 24 * 60 * 60 * 1000).toUTCString();
+        // You can also dismiss the banner by hiding it:
+        // document.querySelector('.cookie-banner').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
