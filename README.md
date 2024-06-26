@@ -8,7 +8,7 @@ How to build and run the local server:
 
 - Install Node.js
 - In the command line run `npx -y http-server`
-- index.html will be served on [localhost:8080](localhost:8080)
+- index.html will be served on [localhost:8080](http://localhost:8080)
 
 ## Task 1
 
